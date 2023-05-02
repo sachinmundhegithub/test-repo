@@ -1,0 +1,14 @@
+name: testing-issue
+
+on:
+  push:
+    branches: 
+  workflow_dispatch:
+  issues:
+  
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+    - name: setp1
+      run: echo "Hello world"
